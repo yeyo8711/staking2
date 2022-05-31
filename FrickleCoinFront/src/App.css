@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+.App {
+  font-family: "Kanit", sans-serif;
+  box-sizing: border-box;
+  min-width: fit-content;
+  max-height: fit-content;
+}
+.main {
+  background-color: #1f3c4b;
+}
+.top {
+  margin: 0;
+  padding: 0;
+}
+.logo-container {
+  margin-bottom: 0;
+  padding: 0;
+}
+.logo {
+  height: 110px;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: #0c2941;
+}
+.boxes {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #08151f;
+}
+.rewards {
+  border-radius: 8px;
+  border: 1px solid white;
+  padding: 5px;
+  margin: 1px;
+}
+.buttonn:hover {
+  box-shadow: 2px 2px 2px 1px #2d2f31;
+}
